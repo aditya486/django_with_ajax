@@ -7,7 +7,7 @@ from django.shortcuts import redirect
 class SignUpView(CreateView):
     template_name = 'signup.html'
     form_class = UserCreationForm
-    # redirect('signup.html')
+    
 
 
 
